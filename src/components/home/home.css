@@ -1,0 +1,65 @@
+#home.fluid-container {
+  color: #9ca3af;
+  margin-top: 130px !important;
+  margin: 0 100px;
+  border-bottom: 1px solid #9ca3af;
+}
+
+.greeting {
+  margin-top: 120px;
+}
+
+.titleDiv {
+  color: #fff;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 50px;
+}
+.titleDesc {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.rightImg {
+  width: 100%;
+  height: 600px;
+}
+
+.cardDiv {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.smallCard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  width: 60px;
+  height: 60px;
+  background-color: #1c1e22;
+  color: #ffffff;
+  text-align: center;
+  transition: box-shadow 0.3s, margin-top 0.3s;
+}
+
+.smallCard:hover {
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 4px 8px,
+    rgba(0, 0, 0, 0.5) 0px 14px 28px -6px,
+    rgba(0, 0, 0, 0.35) 0px -5px 0px inset;
+  margin-top: -5px;
+  background-color: #0c0e10;
+  color: #ff014d;
+}
+
+@media screen and (max-width: 768px) {
+  #home.fluid-container {
+    margin-top: 10px !important;
+    padding: 0 20px;
+  }
+}
