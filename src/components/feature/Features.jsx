@@ -43,7 +43,7 @@ function Features() {
       </div>
       <div className="row">
         {features.map((feature) => (
-          <div className="col-12 col-sm-3 m-2 m-sm-5">
+          <div className="col-12 col-sm-3 mx-0 my-3 m-sm-5">
             <div className="cardDiv">
               <div className="cardContent">
                 <svg

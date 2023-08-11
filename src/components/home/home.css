@@ -1,6 +1,7 @@
 #home.fluid-container {
   margin-top: 130px !important;
   margin: 0 100px;
+  color: #9ca3af;
   border-bottom: 1px solid #0c0e10;
 }
 
@@ -64,5 +65,6 @@
   #home.fluid-container {
     margin-top: 10px !important;
     padding: 0 20px;
+    margin: 0;
   }
 }
