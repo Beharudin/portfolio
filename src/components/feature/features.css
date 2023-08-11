@@ -1,0 +1,38 @@
+#features.fluid-container {
+  color: #9ca3af;
+  margin-top: 100px !important;
+  margin: 0 100px;
+  border-bottom: 1px solid #0c0e10;
+}
+
+#features .cardDiv {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 300px;
+  padding-top: 60px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px,
+    rgba(0, 0, 0, 0.4) 0px 7px 13px -3px, rgba(0, 0, 0, 0.3) 0px -3px 0px inset;
+  background-color: #1c1e22;
+  color: #ffffff;
+  transition: box-shadow 0.3s, background-color 0.3s, padding-top 0.3s;
+}
+
+#features .cardDiv:hover {
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 4px 8px,
+    rgba(0, 0, 0, 0.6) 0px 14px 28px -6px,
+    rgba(0, 0, 0, 0.45) 0px -5px 0px inset;
+  background-color: #0c0e10;
+  padding-top: 5px;
+}
+
+#features .cardContent {
+  padding: 10px 40px;
+  max-height: calc(100%-50px);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#features .cardContent .cardDesc {
+  color: #9ca3af !important;
+}

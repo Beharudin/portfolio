@@ -2,7 +2,15 @@ import React from "react";
 import "./home.css";
 import Typewriter from "typewriter-effect";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faReact } from "@fortawesome/free-brands-svg-icons";
+import {
+  faBootstrap,
+  faGithub,
+  faJava,
+  faLinkedinIn,
+  faNodeJs,
+  faReact,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const titles = [
   "A Professional Coder",
@@ -19,12 +27,12 @@ function Home() {
       <div className="row mb-5">
         <div className="col-12 col-sm-7 p-2">
           <h5 className="greeting">Akkam Nagayaa 👀🙋‍♂️</h5>
-          <div className="titleDiv">
-            <h1 className="title">
+          <div className="homeTitleDiv">
+            <h1 className="homeTitle">
               Hi, I'm{" "}
               <span style={{ color: "#ff014d" }}>Beharudin Mohammed</span>
             </h1>
-            <h3 className="titleDesc">
+            <h3 className="homeTitleDesc">
               <Typewriter
                 options={{
                   strings: titles,
@@ -35,7 +43,7 @@ function Home() {
                 }}
               />
             </h3>
-            <p>
+            <p className="desc">
               I am a passionate MERN stack developer and machine learning
               enthusiast. With a strong foundation in web development and a keen
               eye for data, I create innovative solutions that bridge technology
@@ -47,13 +55,13 @@ function Home() {
               <h6>FIND ME ON</h6>
               <div className="cardDiv">
                 <div className="smallCard mr-3">
-                  <FontAwesomeIcon icon={faReact} />
+                  <FontAwesomeIcon icon={faGithub} />
                 </div>
                 <div className="smallCard mr-3">
-                  <FontAwesomeIcon icon={faReact} />
+                  <FontAwesomeIcon icon={faEnvelope} />
                 </div>
                 <div className="smallCard mr-3">
-                  <FontAwesomeIcon icon={faReact} />
+                  <FontAwesomeIcon icon={faLinkedinIn} />
                 </div>
               </div>
             </div>
@@ -64,14 +72,14 @@ function Home() {
                   <FontAwesomeIcon icon={faReact} />
                 </div>
                 <div className="smallCard mr-3">
-                  <FontAwesomeIcon icon={faReact} />
+                  <FontAwesomeIcon icon={faNodeJs} />
                 </div>
-              <div className="smallCard mr-3">
-                <FontAwesomeIcon icon={faReact} />
-              </div>
-              <div className="smallCard mr-3">
-                <FontAwesomeIcon icon={faReact} />
-              </div>
+                <div className="smallCard mr-3">
+                  <FontAwesomeIcon icon={faJava} />
+                </div>
+                <div className="smallCard mr-3">
+                  <FontAwesomeIcon icon={faBootstrap} />
+                </div>
               </div>
             </div>
           </div>

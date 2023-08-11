@@ -42,3 +42,21 @@ body,
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.titleDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.titleDiv .title{
+  color: #ff014d;
+}
+
+.titleDiv .titleDesc{
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
