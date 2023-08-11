@@ -1,0 +1,56 @@
+#projects.fluid-container {
+    color: #9ca3af;
+    margin-top: 100px !important;
+    margin: 0 100px;
+    border-bottom: 1px solid #0c0e10;
+  }
+  
+  #projects .cardDiv {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    max-width: 400px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px,
+      rgba(0, 0, 0, 0.4) 0px 7px 13px -3px, rgba(0, 0, 0, 0.3) 0px -3px 0px inset;
+    background-color: #1c1e22;
+    color: #ffffff;
+    transition: box-shadow 0.3s, background-color 0.3s, padding-top 0.3s;
+    overflow: hidden;
+  }
+  
+  #projects .cardDiv:hover {
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 2px 4px,
+    rgba(0, 0, 0, 0.6) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.3) 0px -3px 0px inset;
+    background-image: linear-gradient(#0c0e10, #1c1e22);
+    padding-top: 25px;
+  }
+
+  #projects .imageDiv{
+    height: 200px;
+  }
+  #projects .imageDiv img{
+    width: 100%;
+    height: 100%;
+  }
+
+  #projects .projectTitle{
+    flex: 2;
+    color: #ff014d;
+  }
+  #projects .projectBtn{
+    flex: 1;;
+  }
+  #projects .btn{
+    background-color: #0c0e10;
+    color: #ffffff;
+  }
+
+  @media screen and (max-width: 768px) {
+    #projects.fluid-container {
+      margin: 0;
+      margin-top: 20px !important;
+      padding: 0 20px;
+    }
+  }

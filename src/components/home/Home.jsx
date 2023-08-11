@@ -25,7 +25,7 @@ function Home() {
   return (
     <div className="fluid-container" id="home">
       <div className="row mb-5">
-        <div className="col-12 col-sm-7 py-5 p-sm-2">
+        <div className="col-12 col-md-7 py-5 p-sm-2">
           <h5 className="greeting">Akkam Nagayaa 👀🙋‍♂️</h5>
           <div className="homeTitleDiv">
             <h1 className="homeTitle">
@@ -84,7 +84,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="col-12 col-sm-4 my-2 mx-sm-5">
+        <div className="col-12 col-md-4 my-2 mx-lg-2">
           <img className="rightImg" src="/img/user.jpg" alt="" />
         </div>
       </div>

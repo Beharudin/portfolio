@@ -24,7 +24,7 @@ function Footer() {
       <footer className="text-white">
         <div className="card p-4">
           <div className="row mt-4">
-            <div className="col-lg-6 col-xs-12 mb-5 mb-md-0">
+            <div className="col-12 col-md-6 mb-5 mb-md-0">
               <h5 className="text-uppercase mb-4">Beharudin Mohammed</h5>
               <p className="ml-2 desc">
                 Consequat fugiat pariatur excepteur proident anim irure. Amet ex

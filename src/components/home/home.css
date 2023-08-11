@@ -29,6 +29,7 @@
 #home .rightImg {
   width: 100%;
   height: 600px;
+  /* max-width: 400px; */
 }
 
 #home .cardDiv {
@@ -67,4 +68,9 @@
     padding: 0 20px;
     margin: 0;
   }
+  #home .rightImg {
+    max-width: 400px;
+  }
 }
+
+

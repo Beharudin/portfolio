@@ -44,7 +44,7 @@ function Testimonials() {
       <div className="row mb-4">
         {testimonials
           ? testimonials.map((testimonial) => (
-              <div key={testimonial.id} className="col-lg-4 col-md-6 col-sm-12 m-2 m-sm-2">
+              <div key={testimonial.id} className=" col-sm-12 col-md-6 col-lg-4">
                 <div className="testimonial d-flex">
                   <div className="m-3">
                     <img
