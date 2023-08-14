@@ -65,29 +65,33 @@ function Resume() {
         </div>
       </div>
       <div className="row mt-5">
-        <div className="col-12 col-md-6 px-4">
-          <div className="row">
-            <div className="col-12 mb-5">
-              <div className="resumeTitleDiv">
-                <p className="resumeTitle">2005 - 2024</p>
-                <h1 className="resumeTitleDesc">Educational Qualification</h1>
-              </div>
+        <div className="col-12 col-md-6 mb-5">
+          <div className="col-12 mb-5">
+            <div className="resumeTitleDiv">
+              <p className="resumeTitle">2005 - 2024</p>
+              <h1 className="resumeTitleDesc">Educational Qualification</h1>
             </div>
+          </div>
+          <div className="row cardContainer mx-3 mt-5">
             {educations.map((education) => (
-              <div className="col-10 mb-5">
-                <div className="cardDiv">
-                  <div className="row p-3">
-                    <div className="col-9">
-                      <h6 className="courseTitle">{education.title}</h6>
-                      <p className="school">{education.school}</p>
+              <div className="hoverCard">
+                <div className="col-10 d-flex px-0">
+                  <div className="circleConnector"></div>
+                  <div className="horConnector"></div>
+                  <div className="cardDiv">
+                    <div className="row px-3">
+                      <div className="col-9">
+                        <h6 className="courseTitle">{education.title}</h6>
+                        <p className="school">{education.school}</p>
+                      </div>
+                      <div className="col-3">
+                        <button className="btn gradeBtn">
+                          {education.grade}
+                        </button>
+                      </div>
                     </div>
-                    <div className="col-3">
-                      <button className="btn gradeBtn">
-                        {education.grade}
-                      </button>
-                    </div>
+                    <p className="p-3">{education.desc}</p>
                   </div>
-                  <p className="p-3">{education.desc}</p>
                 </div>
               </div>
             ))}

@@ -47,7 +47,7 @@
     transition: box-shadow 0.3s, background-color 0.3s;
   }
 
-#resume .cardDiv:hover {
+#resume .hoverCard:hover .cardDiv {
   box-shadow: rgba(0, 0, 0, 0.8) 0px 2px 4px,
     rgba(0, 0, 0, 0.6) 0px 7px 13px -3px, rgba(0, 0, 0, 0.3) 0px -3px 0px inset;
   background-image: linear-gradient(#0c0e10, #1c1e22);
@@ -79,6 +79,34 @@
   color: #ff014d;
   border-radius: 5px;
   background-color: #0c0e10;
+}
+
+#resume .circleConnector{
+width: 30px;
+height: 20px;
+margin-left: -14px !important;
+margin-top: 15% !important;
+border-radius: 50%;
+border: 4px solid #0c0e10;
+background-color: #212428;
+}
+
+#resume .hoverCard:hover .circleConnector,
+#resume .circleConnector:hover {
+    background-color: #ff014d;
+}
+
+#resume .horConnector{
+width: 20% !important;
+margin-top: 16% !important;
+margin-left: -1px !important;
+height: 8px;
+background-color: #101114;
+}
+
+#resume .cardContainer{
+border-left: 8px solid #101114;
+gap: 40px;
 }
 
 @media screen and (max-width: 768px) {
