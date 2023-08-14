@@ -5,6 +5,7 @@ import Features from '../feature/Features'
 import Footer from '../footer/Footer'
 import Testimonials from '../testimonial/Testimonilas'
 import Project from '../project/Project'
+import Resume from '../resume/Resume'
 
 function HomePage() {
   return (
@@ -13,6 +14,7 @@ function HomePage() {
         <Home />
         <Features />
         <Project />
+        <Resume />
         <Testimonials />
         <Footer />
     </div>
