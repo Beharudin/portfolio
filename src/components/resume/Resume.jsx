@@ -129,7 +129,7 @@ function Resume() {
                     data={experience}
                     header={{
                       period: "20XX - 20XX",
-                      title: "Trainer Experience",
+                      title: "Job Experience",
                     }}
                   />
                 }

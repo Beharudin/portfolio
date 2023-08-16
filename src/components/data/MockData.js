@@ -1,21 +1,53 @@
 const eduData = [
   {
-    title: "BTech in Information Technology",
-    school: "Veermata Jijabai Technological Institute (2020 - 2024)",
-    grade: "96.3%",
+    title: "BTech in Computer Science and Engineering",
+    school: "KIIT University, India (2017 - 2021)",
+    grade: "CGPA 9.22",
     desc: "Studied IT related subjects like Operating Systems, DBMS,OOPS, ML, Web Development, AI, DSA, Compiler Design etc.",
   },
   {
     title: "Higher Secondary Education",
-    school: "Rustomjee International School and Junior College (2018 - 2020)",
-    grade: "88.3%",
-    desc: "Studied in this school from 11th to 12th std. HSC Subjects: PCM, English, Electrical Maintenance, Environment Education.",
+    school: "Boko Preparatory School (2014 - 2016)",
+    grade: "Total 432",
+    desc: "Studied in this school from grade 11th to 12th std. Studied subjects like Afan Oromo, English, Natural Science Maths, Biology, Chemistry, Physics, etc",
   },
   {
-    title: "Primary & Secondary School Education",
-    school: "Rustomjee International School (2005 - 2018)",
-    grade: "96.3%",
-    desc: "Studied in this school from Nursery to 10th std. SSC Subjects: English, Hindi-French, Marathi, Maths, Science, Social Sciences.",
+    title: "Secondary School Education",
+    school: "Boko Secondary School (2012 - 2013)",
+    grade: "CGPA 3.71",
+    desc: "Studied in this school from grade 9th to 10th classes. Studied subjects like Afan Oromo, Amharic, English, Maths, Science, Biology, Chemistry, Physics, etc",
+  },
+  {
+    title: "Primary School Education",
+    school: "Fechatu Primary School (2004 - 2011)",
+    grade: "96.6%",
+    desc: "Studied in this school from grade 1st to 8th classes. Studied subjects like Afan Oromo, Amharic, English, Maths, Science, Biology, Chemistry, Physics, etc",
+  },
+];
+const certifData = [
+  {
+    title: "BTech in Computer Science and Engineering",
+    school: "KIIT University, India (2017 - 2021)",
+    grade: "CGPA 9.22",
+    desc: "Studied IT related subjects like Operating Systems, DBMS,OOPS, ML, Web Development, AI, DSA, Compiler Design etc.",
+  },
+  {
+    title: "Higher Secondary Education",
+    school: "Boko Preparatory School (2014 - 2016)",
+    grade: "Total 432",
+    desc: "Studied in this school from grade 11th to 12th std. Studied subjects like Afan Oromo, English, Natural Science Maths, Biology, Chemistry, Physics, etc",
+  },
+  {
+    title: "Secondary School Education",
+    school: "Boko Secondary School (2012 - 2013)",
+    grade: "CGPA 3.71",
+    desc: "Studied in this school from grade 9th to 10th classes. Studied subjects like Afan Oromo, Amharic, English, Maths, Science, Biology, Chemistry, Physics, etc",
+  },
+  {
+    title: "Primary School Education",
+    school: "Fechatu Primary School (2004 - 2011)",
+    grade: "96.6%",
+    desc: "Studied in this school from grade 1st to 8th classes. Studied subjects like Afan Oromo, Amharic, English, Maths, Science, Biology, Chemistry, Physics, etc",
   },
 ];
 const expData = [
@@ -100,4 +132,4 @@ const skillsData = [
   },
 ];
 
-export { eduData, expData, achvData, skillsData };
+export { eduData, expData, achvData, skillsData, certifData };
