@@ -116,7 +116,10 @@ function Resume() {
               <div className="row">
                 {
                   <OtherResumeCards
-                    data={experience}
+                    data={experience.slice(
+                      0,
+                      Math.ceil(achievements.length / 2)
+                    )}
                     header={{ period: "2023 - 20XX", title: "Job Experience" }}
                   />
                 }
@@ -126,7 +129,7 @@ function Resume() {
               <div className="row">
                 {
                   <OtherResumeCards
-                    data={experience}
+                    data={experience.slice(Math.ceil(achievements.length / 2))}
                     header={{
                       period: "20XX - 20XX",
                       title: "Job Experience",
