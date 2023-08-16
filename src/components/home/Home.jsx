@@ -54,15 +54,21 @@ function Home() {
             <div className="col-12 col-sm-6 mb-4 mb-sm-0">
               <h6>FIND ME ON</h6>
               <div className="cardDiv">
-                <div className="smallCard mr-3">
-                  <FontAwesomeIcon icon={faGithub} />
-                </div>
-                <div className="smallCard mr-3">
-                  <FontAwesomeIcon icon={faEnvelope} />
-                </div>
-                <div className="smallCard mr-3">
-                  <FontAwesomeIcon icon={faLinkedinIn} />
-                </div>
+                <a href="/hello">
+                  <div className="smallCard mr-3">
+                    <FontAwesomeIcon icon={faGithub} />
+                  </div>
+                </a>
+                <a href="/hello">
+                  <div className="smallCard mr-3">
+                    <FontAwesomeIcon icon={faEnvelope} />
+                  </div>
+                </a>
+                <a href="https://www.google.com">
+                  <div className="smallCard mr-3">
+                    <FontAwesomeIcon icon={faLinkedinIn} />
+                  </div>
+                </a>
               </div>
             </div>
             <div className="col-12 col-sm-6 mb-4 mb-sm-0">
