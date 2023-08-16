@@ -22,19 +22,16 @@ const expData = [
   {
     title: "BTech in Information Technology",
     school: "Veermata Jijabai Technological Institute (2020 - 2024)",
-    grade: "96.3%",
     desc: "Studied IT related subjects like Operating Systems, DBMS,OOPS, ML, Web Development, AI, DSA, Compiler Design etc.",
   },
   {
     title: "Higher Secondary Education",
     school: "Rustomjee International School and Junior College (2018 - 2020)",
-    grade: "88.3%",
     desc: "Studied in this school from 11th to 12th std. HSC Subjects: PCM, English, Electrical Maintenance, Environment Education.",
   },
   {
     title: "Primary & Secondary School Education",
     school: "Rustomjee International School (2005 - 2018)",
-    grade: "96.3%",
     desc: "Studied in this school from Nursery to 10th std. SSC Subjects: English, Hindi-French, Marathi, Maths, Science, Social Sciences.",
   },
 ];
@@ -42,19 +39,16 @@ const achvData = [
   {
     title: "BTech in Information Technology",
     school: "Veermata Jijabai Technological Institute (2020 - 2024)",
-    grade: "96.3%",
     desc: "Studied IT related subjects like Operating Systems, DBMS,OOPS, ML, Web Development, AI, DSA, Compiler Design etc.",
   },
   {
     title: "Higher Secondary Education",
     school: "Rustomjee International School and Junior College (2018 - 2020)",
-    grade: "88.3%",
     desc: "Studied in this school from 11th to 12th std. HSC Subjects: PCM, English, Electrical Maintenance, Environment Education.",
   },
   {
     title: "Primary & Secondary School Education",
     school: "Rustomjee International School (2005 - 2018)",
-    grade: "96.3%",
     desc: "Studied in this school from Nursery to 10th std. SSC Subjects: English, Hindi-French, Marathi, Maths, Science, Social Sciences.",
   },
 ];

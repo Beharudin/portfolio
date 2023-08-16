@@ -1,7 +1,7 @@
 import React from "react";
 import "./resumeCards.css";
 
-function ResumeCards({ data, header }) {
+function OtherResumeCards({ data, header }) {
   return (
     <>
       <div className="col-12 mb-5">
@@ -18,12 +18,9 @@ function ResumeCards({ data, header }) {
               <div className="horConnector"></div>
               <div className="cardDiv">
                 <div className="row px-3">
-                  <div className="col-9">
+                  <div className="col-12">
                     <h6 className="courseTitle">{data.title}</h6>
                     <p className="school">{data.school}</p>
-                  </div>
-                  <div className="col-3">
-                    <button className="btn gradeBtn">{data.grade}</button>
                   </div>
                 </div>
                 <p className="p-3">{data.desc}</p>
@@ -36,4 +33,4 @@ function ResumeCards({ data, header }) {
   );
 }
 
-export default ResumeCards;
+export default OtherResumeCards;

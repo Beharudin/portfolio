@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./resume.css";
-import ResumeCards from "../cards/ResumeCards";
+import EducationResumeCard from "../cards/EducationResumeCard";
+import OtherResumeCards from "../cards/OtherResumeCards";
 import Skills from "../skills/Skills";
 import { eduData, expData, achvData, skillsData } from "../data/MockData";
 
@@ -57,7 +58,7 @@ function Resume() {
             <div className="col-12 col-md-6 mb-5">
               <div className="row">
                 {
-                  <ResumeCards
+                  <EducationResumeCard
                     data={educations}
                     header={{
                       period: "2020 - 2024",
@@ -70,7 +71,7 @@ function Resume() {
             <div className="col-12 col-md-6 mb-5">
               <div className="row">
                 {
-                  <ResumeCards
+                  <EducationResumeCard
                     data={educations}
                     header={{ period: "2020 - 2023", title: "Certificates" }}
                   />
@@ -114,7 +115,7 @@ function Resume() {
             <div className="col-12 col-md-6 mb-5">
               <div className="row">
                 {
-                  <ResumeCards
+                  <OtherResumeCards
                     data={experience}
                     header={{ period: "2023 - 20XX", title: "Job Experience" }}
                   />
@@ -124,7 +125,7 @@ function Resume() {
             <div className="col-12 col-md-6 mb-5">
               <div className="row">
                 {
-                  <ResumeCards
+                  <OtherResumeCards
                     data={experience}
                     header={{
                       period: "20XX - 20XX",
@@ -141,7 +142,7 @@ function Resume() {
             <div className="col-12 col-md-6 mb-5">
               <div className="row">
                 {
-                  <ResumeCards
+                  <OtherResumeCards
                     data={achievements.slice(
                       0,
                       Math.ceil(achievements.length / 2)
@@ -157,7 +158,7 @@ function Resume() {
             <div className="col-12 col-md-6 mb-5">
               <div className="row">
                 {
-                  <ResumeCards
+                  <OtherResumeCards
                     data={achievements.slice(
                       Math.ceil(achievements.length / 2)
                     )}
