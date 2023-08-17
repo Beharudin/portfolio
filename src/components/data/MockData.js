@@ -26,28 +26,34 @@ const eduData = [
 ];
 const certifData = [
   {
-    title: "BTech in Computer Science and Engineering",
-    school: "KIIT University, India (2017 - 2021)",
-    grade: "CGPA 9.22",
-    desc: "Studied IT related subjects like Operating Systems, DBMS,OOPS, ML, Web Development, AI, DSA, Compiler Design etc.",
+    title: "Web Development",
+    school: "Internshala",
+    grade: "Online",
+    desc: "I successfully completed a web development training program on Internshala, mastering HTML, CSS, PHP, and Bootstrap, and honing my ability to create dynamic and responsive websites.",
   },
   {
-    title: "Higher Secondary Education",
-    school: "Boko Preparatory School (2014 - 2016)",
-    grade: "Total 432",
-    desc: "Studied in this school from grade 11th to 12th std. Studied subjects like Afan Oromo, English, Natural Science Maths, Biology, Chemistry, Physics, etc",
+    title: "Programming in Python",
+    school: "Internshala",
+    grade: "Online",
+    desc: "I successfully completed a programming in Python training program on Internshala, acquiring proficiency in Python programming and expanding my capabilities in software development.",
   },
   {
-    title: "Secondary School Education",
-    school: "Boko Secondary School (2012 - 2013)",
-    grade: "CGPA 3.71",
-    desc: "Studied in this school from grade 9th to 10th classes. Studied subjects like Afan Oromo, Amharic, English, Maths, Science, Biology, Chemistry, Physics, etc",
+    title: "Android App Development",
+    school: "Udemy",
+    grade: "Online",
+    desc: "I accomplished a comprehensive training program in Android App Development on Udemy, where I gained expertise in utilizing Java, XML, and Android Studio tools to create innovative mobile applications.",
   },
   {
-    title: "Primary School Education",
-    school: "Fechatu Primary School (2004 - 2011)",
-    grade: "96.6%",
-    desc: "Studied in this school from grade 1st to 8th classes. Studied subjects like Afan Oromo, Amharic, English, Maths, Science, Biology, Chemistry, Physics, etc",
+    title: "CCA Java Level 1 Certificate",
+    school: "Cambridge Certification Authority (CCA)",
+    grade: "Online",
+    desc: "I obtained the CCA Java Level 1 certificate, showcasing my proficiency in Java programming and validating my skills in the field.",
+  },
+  {
+    title: "Excel Skills for Business",
+    school: "Macquarie University",
+    grade: "Online",
+    desc: "I successfully finished the Excel Skills for Business course offered by Macquarie University on Coursera, enhancing my proficiency in utilizing Excel for business applications. This program equipped me with valuable skills to analyze data, create reports, and make informed decisions using Excel.",
   },
 ];
 const expData = [
