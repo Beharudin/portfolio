@@ -20,7 +20,7 @@ function OtherResumeCards({ data, header }) {
                 <div className="row px-3">
                   <div className="col-12">
                     <h6 className="courseTitle">{data.title}</h6>
-                    <p className="school">{data.school}</p>
+                    <p className="school">{data.company}</p>
                   </div>
                 </div>
                 <p className="p-3">{data.desc}</p>

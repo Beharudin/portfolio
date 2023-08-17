@@ -52,37 +52,27 @@ const certifData = [
 ];
 const expData = [
   {
-    title: "BTech in Information Technology",
-    school: "Veermata Jijabai Technological Institute (2020 - 2024)",
-    desc: "Studied IT related subjects like Operating Systems, DBMS,OOPS, ML, Web Development, AI, DSA, Compiler Design etc.",
+    title: "Assistant Lecturer",
+    company: "Werabe University (01/2022 - 07/2022)",
+    desc: "I worked as an assistant lecturer at Werabe University, where I taught courses in computer graphics and computer architecture, leveraging my expertise and contributing to the students' education.",
   },
   {
-    title: "Higher Secondary Education",
-    school: "Rustomjee International School and Junior College (2018 - 2020)",
-    desc: "Studied in this school from 11th to 12th std. HSC Subjects: PCM, English, Electrical Maintenance, Environment Education.",
-  },
-  {
-    title: "Primary & Secondary School Education",
-    school: "Rustomjee International School (2005 - 2018)",
-    desc: "Studied in this school from Nursery to 10th std. SSC Subjects: English, Hindi-French, Marathi, Maths, Science, Social Sciences.",
-  },
+    title: "Web Developer",
+    company: "Cooperative Bank of Oromia (2022 - Present)",
+    desc: "Employed as a web developer at Cooperative Bank of Oromia, I utilize languages such as React JS, Node, Express, Bootstrap, MySQL, etc to create dynamic solutions, contributing to the bank's digital offerings and services.",
+  }
 ];
 const achvData = [
   {
-    title: "BTech in Information Technology",
-    school: "Veermata Jijabai Technological Institute (2020 - 2024)",
-    desc: "Studied IT related subjects like Operating Systems, DBMS,OOPS, ML, Web Development, AI, DSA, Compiler Design etc.",
+    title: "Scholarship Opportunity",
+    company: "Ethiopian Minsitry of Education",
+    desc: "I've earned a scholarship from the Ethiopian Ministry of Education for excelling at Haramaya University, granting me the opportunity to study Computer Science and Engineering in India.",
   },
   {
-    title: "Higher Secondary Education",
-    school: "Rustomjee International School and Junior College (2018 - 2020)",
-    desc: "Studied in this school from 11th to 12th std. HSC Subjects: PCM, English, Electrical Maintenance, Environment Education.",
-  },
-  {
-    title: "Primary & Secondary School Education",
-    school: "Rustomjee International School (2005 - 2018)",
-    desc: "Studied in this school from Nursery to 10th std. SSC Subjects: English, Hindi-French, Marathi, Maths, Science, Social Sciences.",
-  },
+    title: "Assistan Lecturer",
+    company: "Ethiopian Minsitry of Education",
+    desc: "Due to my strong academic performance, the Ethiopian Ministry of Education granted me the opportunity to become an assistant lecturer at Werabe University.",
+  }
 ];
 
 const skillsData = [
