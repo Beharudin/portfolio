@@ -3,12 +3,12 @@ import "./resume.css";
 import EducationResumeCard from "../cards/EducationResumeCard";
 import OtherResumeCards from "../cards/OtherResumeCards";
 import Skills from "../skills/Skills";
-import { eduData, expData, achvData, skillsData, certifData } from "../data/MockData";
+import { eduData, expData, achvData, skillsData, certificationData } from "../data/MockData";
 
 function Resume() {
   const [isActive, setIsActive] = useState("education");
   const [educations, setEducations] = useState(eduData);
-  const [certificates, setCertificates] = useState(certifData);
+  const [certificates, setCertificates] = useState(certificationData);
   const [experience, setExperience] = useState(expData);
   const [achievements, setAchievements] = useState(achvData);
   const [skills, setSkills] = useState(skillsData);

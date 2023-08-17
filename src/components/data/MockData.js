@@ -24,7 +24,7 @@ const eduData = [
     desc: "Studied in this school from grade 1st to 8th classes. Studied subjects like Afan Oromo, Amharic, English, Maths, Science, Biology, Chemistry, Physics, etc",
   },
 ];
-const certifData = [
+const certificationData = [
   {
     title: "Web Development",
     school: "Internshala",
@@ -128,4 +128,4 @@ const skillsData = [
   },
 ];
 
-export { eduData, expData, achvData, skillsData, certifData };
+export { eduData, expData, achvData, skillsData, certificationData };
