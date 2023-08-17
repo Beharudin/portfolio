@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./project.css";
-import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 function Project() {
   const [projects, setProjects] = useState([
@@ -63,7 +64,7 @@ function Project() {
                     className="btn btn-floating  rounded-circle mx-1"
                     href={project.github}
                   >
-                    <FontAwesomeIcon icon={faInstagram} />
+                    <FontAwesomeIcon icon={faGithub} />
                   </a>
 
                   <a
@@ -71,7 +72,7 @@ function Project() {
                     className="btn btn-floating rounded-circle mx-1"
                     href={project.link}
                   >
-                    <FontAwesomeIcon icon={faTwitter} />
+                    <FontAwesomeIcon icon={faGlobe} />
                   </a>
                 </div>
               </div>
