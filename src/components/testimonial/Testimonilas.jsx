@@ -4,35 +4,25 @@ import "./testimonials.css";
 function Testimonials() {
   const [testimonials, setTestimonials] = useState([
     {
-      img: "/img/user.jpg",
-      comment: "Occaecat aute elit qui ipsum Lorem laborum magna sit duis.",
-      name: "Usmaan Mohammed",
+      img: "/img/unknown.png",
+      comment: "As a professor and guide, I've observed Beharudin Mohammed's enthusiastic dedication and diligence. He consistently strives to meet my expectations and actively participates in various projects such as Web Development, Android App Development, and AWS/Firebase Storage under the guidance of esteemed university professors.",
+      name: "N Biraja Isak",
     },
     {
-      img: "/img/user.jpg",
-      comment: "Occaecat aute elit qui ipsum Lorem laborum magna sit duis.",
-      name: "Jamaal Abdii",
+      img: "/img/unknown.png",
+      comment: "Beharudin Mohammed's curiosity and interpretation skills are assets for web development. His problem-solving and communication abilities contribute to effective teamwork, reflecting his persistent interest and curiosity that drive him to excel.",
+      name: "Rajat Kumar Behera",
     },
     {
-      img: "/img/user.jpg",
-      comment: "Occaecat aute elit qui ipsum Lorem laborum magna sit duis.",
-      name: "Kamaal Bakar",
+      img: "/img/unknown.png",
+      comment: "Beharudin is a true team player, always ready to lend a hand and contribute his creative insights. His dedication and problem-solving skills have been instrumental in driving our projects forward.",
+      name: "Biniyam Fikru",
     },
     {
-      img: "/img/user.jpg",
-      comment: "Occaecat aute elit qui ipsum Lorem laborum magna sit duis.",
-      name: "Caalaa Mohammed",
-    },
-    {
-      img: "/img/user.jpg",
-      comment: "Occaecat aute elit qui ipsum Lorem laborum magna sit duis.",
-      name: "Maahdii Ziyaad",
-    },
-    {
-      img: "/img/user.jpg",
-      comment: "Occaecat aute elit qui ipsum Lorem laborum magna sit duis.",
-      name: "Obsituu Musxafaa",
-    },
+      img: "/img/unknown.png",
+      comment: "Working with Beharudin is a pleasure. His dedication, quick thinking, and ability to explain complex ideas in simple terms have a positive impact on our projects. He's an essential part of our team's success.",
+      name: "Temam Hashim",
+    }
   ]);
 
   return (
