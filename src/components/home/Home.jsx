@@ -54,7 +54,7 @@ function Home() {
             <div className="col-12 col-sm-6 mb-4 mb-sm-0">
               <h6>FIND ME ON</h6>
               <div className="cardDiv">
-                <a href="https://portfolio-2yj0.onrender.com/">
+                <a href="https://github.com/Beharudin/MyProjects">
                   <div className="smallCard mr-3">
                     <FontAwesomeIcon icon={faGithub} />
                   </div>
