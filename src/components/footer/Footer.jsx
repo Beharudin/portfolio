@@ -36,7 +36,7 @@ function Footer() {
                 <a
                   type="button"
                   className="btn btn-floating btn-warning rounded-circle m-2"
-                  href="www.facebook.com"
+                  href="https://www.facebook.com/beharudin.mohammed?mibextid=ZbWKwL"
                 >
                   <FontAwesomeIcon icon={faFacebookF} />
                 </a>
@@ -44,7 +44,7 @@ function Footer() {
                 <a
                   type="button"
                   className="btn btn-floating btn-warning rounded-circle m-2"
-                  href="www.instagram.com"
+                  href="https://instagram.com/baharudinmohammed?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
                 >
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
@@ -52,7 +52,7 @@ function Footer() {
                 <a
                   type="button"
                   className="btn btn-floating btn-warning rounded-circle m-2"
-                  href="www.twitter.com"
+                  href="https://twitter.com/BeharudinM?t=QYXofqRv1a1W1A4xqC2kvQ&s=09"
                 >
                   <FontAwesomeIcon icon={faTwitter} />
                 </a>

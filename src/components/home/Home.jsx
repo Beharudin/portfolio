@@ -54,17 +54,17 @@ function Home() {
             <div className="col-12 col-sm-6 mb-4 mb-sm-0">
               <h6>FIND ME ON</h6>
               <div className="cardDiv">
-                <a href="/hello">
+                <a href="https://portfolio-2yj0.onrender.com/">
                   <div className="smallCard mr-3">
                     <FontAwesomeIcon icon={faGithub} />
                   </div>
                 </a>
-                <a href="/hello">
+                <a href="mailto:mbahar651@gmail.com">
                   <div className="smallCard mr-3">
                     <FontAwesomeIcon icon={faEnvelope} />
                   </div>
                 </a>
-                <a href="https://www.google.com">
+                <a href="https://www.linkedin.com/in/beharudin-mohammed-66411921a">
                   <div className="smallCard mr-3">
                     <FontAwesomeIcon icon={faLinkedinIn} />
                   </div>
