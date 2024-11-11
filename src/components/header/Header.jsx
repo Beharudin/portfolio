@@ -1,65 +1,84 @@
 import React from "react";
-import "./header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
-
   return (
-    <nav className="navbar navbar-expand-md fixed-top ">
-      <a className="navbar-brand" href="/">
-        <img
-          className="profile_img"
-          src="./img/user.jpg"
-          width="60"
-          height="60"
-          alt=""
-        />
-      </a>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <FontAwesomeIcon icon={faBars} />
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav mr-5 ml-auto">
-          <li className="nav-item mr-4">
-            <a className="nav-link" href="#home">
-              Home
-            </a>
-          </li>
-          <li className="nav-item mr-4">
-            <a className="nav-link" href="#features">
-              Features
-            </a>
-          </li>
-          <li className="nav-item mr-4">
-            <a className="nav-link" href="#projects">
-              Projects
-            </a>
-          </li>
-          <li className="nav-item mr-4">
-            <a className="nav-link" href="#resume">
-              Resume
-            </a>
-          </li>
-          <li className="nav-item mr-4">
-            <a className="nav-link" href="#testimonials">
-              Testimonial
-            </a>
-          </li>
-          <li className="nav-item mr-4">
-            <a className="nav-link" href="#footer">
-              Contact
-            </a>
-          </li>
-        </ul>
+    <nav className="bg-blue-ribbon-900 border-b border-rose-500 text-white p-4 fixed top-0 w-full z-10">
+      <div className="flex items-center justify-between">
+        {/* Navbar brand/logo */}
+        <a href="/" className="flex items-center">
+          <img
+            className="rounded-full ml-5 w-12 h-12 object-fill"
+            src="./img/user.jpg"
+            alt="User"
+          />
+        </a>
+
+        {/* Navbar toggler for mobile */}
+        <button
+          className="md:hidden"
+          type="button"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <FontAwesomeIcon icon={faBars} />
+        </button>
+
+        {/* Navbar links (hidden on mobile, shown on larger screens) */}
+        <div className="hidden md:flex ml-auto">
+          <ul className="flex space-x-6">
+            <li>
+              <a
+                href="#home"
+                className="hover:text-rose-600 transition duration-300"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="#features"
+                className="hover:text-rose-600 transition duration-300"
+              >
+                Features
+              </a>
+            </li>
+            <li>
+              <a
+                href="#projects"
+                className="hover:text-rose-600 transition duration-300"
+              >
+                Projects
+              </a>
+            </li>
+            <li>
+              <a
+                href="#resume"
+                className="hover:text-rose-600 transition duration-300"
+              >
+                Resume
+              </a>
+            </li>
+            <li>
+              <a
+                href="#testimonials"
+                className="hover:text-rose-600 transition duration-300"
+              >
+                Testimonial
+              </a>
+            </li>
+            <li>
+              <a
+                href="#footer"
+                className="hover:text-rose-600 transition duration-300"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   );

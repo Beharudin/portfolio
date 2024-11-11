@@ -1,7 +1,3 @@
-import React from "react";
-import "./home.css";
-import Typewriter from "typewriter-effect";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBootstrap,
   faGithub,
@@ -9,30 +5,55 @@ import {
   faLinkedinIn,
   faNodeJs,
   faReact,
+  faUpwork,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import React from "react";
+import Typewriter from "typewriter-effect";
+import SkillIcon from "./SkillIcon";
+import SocialLink from "./SocialLink";
 
 const titles = [
-  "A Professional Coder",
+  "A Professional Developer",
   "A Full Stack Developer",
   "A MERN Developer",
-  "A Django Developer",
-  "A React Lover",
-  "A Java Lover",
+  "A ReactJS Developer",
+  "A React Native Lover",
+  "A NextJs Typescript TailwindCSS Lover",
 ];
+
+const socialData = [
+  {
+    href: "https://www.upwork.com/freelancers/~01ea990ce4b4995fd3?mp_source=share",
+    icon: faUpwork,
+  },
+  {
+    href: "https://www.linkedin.com/in/beharudin-mohammed-66411921a",
+    icon: faLinkedinIn,
+  },
+  {
+    href: "https://github.com/Beharudin/",
+    icon: faGithub,
+  },
+  {
+    href: "mailto:mbahar651@gmail.com",
+    icon: faEnvelope,
+  },
+];
+
+const skillData = [faReact, faNodeJs, faJava, faBootstrap];
 
 function Home() {
   return (
-    <div className="fluid-container" id="home">
-      <div className="row mb-5">
-        <div className="col-12 col-md-7 py-5 p-sm-2">
-          <h5 className="greeting">Akkam Nagayaa 👀🙋‍♂️</h5>
-          <div className="homeTitleDiv">
-            <h1 className="homeTitle">
-              Hi, I'm{" "}
-              <span style={{ color: "#ff014d" }}>Beharudin Mohammed</span>
+    <div className="w-full px-5 md:px-24" id="home">
+      <div className="grid grid-cols-3 mb-5">
+        <div className="col-span-3 md:col-span-2 py-5 sm:p-2">
+          <h5 className="mt-28 text-boston-blue-500">Akkam Nagayaa 👀🙋‍♂️</h5>
+          <div className="text-blue-ribbon-900">
+            <h1 className="text-5xl font-bold py-2">
+              Hi, I'm <span className="text-rose-600">Beharudin Mohammed</span>
             </h1>
-            <h3 className="homeTitleDesc">
+            <h3 className="text-4xl font-bold leading-10">
               <Typewriter
                 options={{
                   strings: titles,
@@ -43,55 +64,46 @@ function Home() {
                 }}
               />
             </h3>
-            <p className="desc">
-              I am a passionate MERN stack developer and machine learning
-              enthusiast. With a strong foundation in web development and a keen
-              eye for data, I create innovative solutions that bridge technology
-              and user experience.
+            <p className="text-santas-gray-950 font-medium leading-7 pt-5">
+              I'm a highly skilled React.js/Next.js Developer, proficient in
+              Front-End and Full-Stack development. My expertise spans across
+              the MERN stack, enabling me to craft top-notch websites. I
+              specialize in leveraging React.js, react Native, Next.js, Node.js,
+              Typescript, Redux, Tailwind CSS, MUI Material, and MongoDB,
+              Express.js, PostgreSQL to meet the dynamic needs of modern
+              businesses.
             </p>
           </div>
-          <div className="row mt-3 mt-sm-5 pt-3 pt-sm-5">
-            <div className="col-12 col-sm-6 mb-4 mb-sm-0">
-              <h6>FIND ME ON</h6>
-              <div className="cardDiv">
-                <a href="https://github.com/Beharudin/MyProjects">
-                  <div className="smallCard mr-3">
-                    <FontAwesomeIcon icon={faGithub} />
-                  </div>
-                </a>
-                <a href="mailto:mbahar651@gmail.com">
-                  <div className="smallCard mr-3">
-                    <FontAwesomeIcon icon={faEnvelope} />
-                  </div>
-                </a>
-                <a href="https://www.linkedin.com/in/beharudin-mohammed-66411921a">
-                  <div className="smallCard mr-3">
-                    <FontAwesomeIcon icon={faLinkedinIn} />
-                  </div>
-                </a>
+          <div className="flex flex-col sm:flex-row mt-3 sm:mt-5 pt-3 sm:pt-5">
+            <div className="w-full sm:w-1/2 mb-4 sm:mb-0">
+              <h6 className="text-sm font-semibold">FIND ME ON</h6>
+              <div className="flex space-x-3 mt-5">
+                {socialData.map((data) => (
+                  <SocialLink
+                    key={data.href}
+                    href={data.href}
+                    icon={data.icon}
+                  />
+                ))}
               </div>
             </div>
-            <div className="col-12 col-sm-6 mb-4 mb-sm-0">
-              <h6>BEST WEB STACK</h6>
-              <div className="cardDiv">
-                <div className="smallCard mr-3">
-                  <FontAwesomeIcon icon={faReact} />
-                </div>
-                <div className="smallCard mr-3">
-                  <FontAwesomeIcon icon={faNodeJs} />
-                </div>
-                <div className="smallCard mr-3">
-                  <FontAwesomeIcon icon={faJava} />
-                </div>
-                <div className="smallCard mr-3">
-                  <FontAwesomeIcon icon={faBootstrap} />
-                </div>
+
+            <div className="w-full sm:w-1/2 mb-4 sm:mb-0">
+              <h6 className="text-sm font-semibold">BEST WEB STACK</h6>
+              <div className="flex space-x-3 mt-5">
+                {skillData.map((icon) => (
+                  <SkillIcon key={icon} icon={icon} />
+                ))}
               </div>
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-4 my-2 mx-lg-2">
-          <img className="rightImg" src="/img/user.jpg" alt="" />
+        <div className="col-span-3 md:col-span-1 my-5 mt-28 lg:mx-2">
+          <img
+            className="w-full h-[600px] rounded-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-xl"
+            src="/img/user.jpg"
+            alt="Beharudin Mohammed"
+          />
         </div>
       </div>
     </div>
