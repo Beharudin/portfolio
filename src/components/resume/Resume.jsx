@@ -13,11 +13,6 @@ import "./resume.css";
 
 function Resume() {
   const [isActive, setIsActive] = useState("experience");
-  const [educations, setEducations] = useState(eduData);
-  const [certificates, setCertificates] = useState(certificationData);
-  const [experience, setExperience] = useState(expData);
-  const [achievements, setAchievements] = useState(achvData);
-  const [skills, setSkills] = useState(skillsData);
 
   const renderCardContent = (type) => {
     switch (type) {
@@ -25,14 +20,14 @@ function Resume() {
         return (
           <div className="grid grid-cols-1 md:grid-cols-2">
             <EducationResumeCard
-              data={educations}
+              data={eduData}
               header={{
                 period: "2004 - 2021",
                 title: "Educational Qualification",
               }}
             />
             <EducationResumeCard
-              data={certificates}
+              data={certificationData}
               header={{ period: "2020 - 2023", title: "Certificates" }}
             />
           </div>
@@ -45,14 +40,18 @@ function Resume() {
                 <p className="resumeTitle">TECH STACK</p>
                 <h1 className="resumeTitleDesc">Development Skill</h1>
               </div>
-              <Skills data={skills.slice(0, Math.ceil(skills.length / 2))} />
+              <Skills
+                data={skillsData.slice(0, Math.ceil(skillsData.length / 2))}
+              />
             </div>
             <div>
               <div className="resumeTitleDiv">
                 <p className="resumeTitle">TECH STACK</p>
                 <h1 className="resumeTitleDesc">Development Skill</h1>
               </div>
-              <Skills data={skills.slice(Math.ceil(skills.length / 2))} />
+              <Skills
+                data={skillsData.slice(Math.ceil(skillsData.length / 2))}
+              />
             </div>
           </div>
         );
@@ -60,11 +59,11 @@ function Resume() {
         return (
           <div className="grid grid-cols-1 md:grid-cols-2">
             <OtherResumeCards
-              data={experience.slice(0, Math.ceil(experience.length / 2))}
+              data={expData.slice(0, Math.ceil(expData.length / 2))}
               header={{ period: "01/2022 - 06/2022", title: "Job Experience" }}
             />
             <OtherResumeCards
-              data={experience.slice(Math.ceil(experience.length / 2))}
+              data={expData.slice(Math.ceil(expData.length / 2))}
               header={{ period: "06/2022 - Present", title: "Job Experience" }}
             />
           </div>
@@ -73,11 +72,11 @@ function Resume() {
         return (
           <div className="grid grid-cols-1 md:grid-cols-2">
             <OtherResumeCards
-              data={achievements.slice(0, Math.ceil(achievements.length / 2))}
+              data={achvData.slice(0, Math.ceil(achvData.length / 2))}
               header={{ period: "2017 - 2022", title: "Accomplishments" }}
             />
             <OtherResumeCards
-              data={achievements.slice(Math.ceil(achievements.length / 2))}
+              data={achvData.slice(Math.ceil(achvData.length / 2))}
               header={{ period: "2022 - 2023", title: "Accomplishments" }}
             />
           </div>

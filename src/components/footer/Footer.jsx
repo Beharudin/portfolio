@@ -16,7 +16,7 @@ import "./footer.css";
 
 function Footer() {
   return (
-    <div className="fluid-container" id="footer">
+    <div className="w-full mt-24" id="footer">
       <div className="titleDiv">
         <p className="title">CONTACTS</p>
         <h1 className="titleDesc">Lets Connect</h1>
@@ -27,9 +27,13 @@ function Footer() {
             <div className="col-12 col-md-6 mb-5 mb-md-0">
               <h5 className="text-uppercase mb-4">Beharudin Mohammed</h5>
               <p className="ml-2 desc">
-                Consequat fugiat pariatur excepteur proident anim irure. Amet ex
-                nisi eu Lorem sint ut qui et mollit culpa. Laborum adipisicing
-                cupidatat voluptate anim duis.
+                I'm a highly skilled React.js/Next.js Developer, proficient in
+                Front-End and Full-Stack development. My expertise spans across
+                the MERN stack, enabling me to craft top-notch websites. I
+                specialize in leveraging React.js, react Native, Next.js,
+                Node.js, Typescript, Redux, Tailwind CSS, MUI Material, and
+                MongoDB, Express.js, PostgreSQL to meet the dynamic needs of
+                modern businesses.
               </p>
 
               <div className="mt-4 ml-2">

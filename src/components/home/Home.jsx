@@ -1,47 +1,9 @@
-import {
-  faBootstrap,
-  faGithub,
-  faJava,
-  faLinkedinIn,
-  faNodeJs,
-  faReact,
-  faUpwork,
-} from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import Typewriter from "typewriter-effect";
+import { skillData, socialData, typewriterTitles } from "../data/MockData";
 import SkillIcon from "./SkillIcon";
 import SocialLink from "./SocialLink";
-
-const titles = [
-  "A Professional Developer",
-  "A Full Stack Developer",
-  "A MERN Developer",
-  "A ReactJS Developer",
-  "A React Native Lover",
-  "A NextJs Typescript TailwindCSS Lover",
-];
-
-const socialData = [
-  {
-    href: "https://www.upwork.com/freelancers/~01ea990ce4b4995fd3?mp_source=share",
-    icon: faUpwork,
-  },
-  {
-    href: "https://www.linkedin.com/in/beharudin-mohammed-66411921a",
-    icon: faLinkedinIn,
-  },
-  {
-    href: "https://github.com/Beharudin/",
-    icon: faGithub,
-  },
-  {
-    href: "mailto:mbahar651@gmail.com",
-    icon: faEnvelope,
-  },
-];
-
-const skillData = [faReact, faNodeJs, faJava, faBootstrap];
+import { userImg } from "../../assets";
 
 function Home() {
   return (
@@ -56,7 +18,7 @@ function Home() {
             <h3 className="text-4xl font-bold leading-10">
               <Typewriter
                 options={{
-                  strings: titles,
+                  strings: typewriterTitles,
                   autoStart: true,
                   loop: true,
                   delay: 10,
@@ -101,7 +63,7 @@ function Home() {
         <div className="col-span-3 md:col-span-1 my-5 mt-28 lg:mx-2">
           <img
             className="w-full h-[600px] rounded-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-xl"
-            src="/img/user.jpg"
+            src={userImg}
             alt="Beharudin Mohammed"
           />
         </div>
