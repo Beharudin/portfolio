@@ -3,7 +3,7 @@ const eduData = [
     title: "BTech in Computer Science and Engineering",
     school: "KIIT University, India (2017 - 2021)",
     grade: "CGPA 9.22",
-    desc: "Studied IT related subjects like Operating Systems, DBMS,OOPS, ML, Web Development, AI, DSA, Compiler Design etc.",
+    desc: "Studied Computer related subjects like Java, SQL, Operating Systems, DBMS, OOPS, Web Development, DSA, Compiler Design etc.",
   },
   {
     title: "Higher Secondary Education",
@@ -47,13 +47,13 @@ const certificationData = [
     title: "CCA Java Level 1 Certificate",
     school: "Cambridge Certification Authority (CCA)",
     grade: "Online",
-    desc: "I obtained the CCA Java Level 1 certificate, showcasing my proficiency in Java programming and validating my skills in the field.",
+    desc: "I obtained the CCA Java Level 1 certificate, showcasing my proficiency in Java programming, explore various problems, and validating my skills in the field.",
   },
   {
     title: "Excel Skills for Business",
     school: "Macquarie University",
     grade: "Online",
-    desc: "I successfully finished the Excel Skills for Business course offered by Macquarie University on Coursera, enhancing my proficiency in utilizing Excel for business applications. This program equipped me with valuable skills to analyze data, create reports, and make informed decisions using Excel.",
+    desc: "I successfully finished the Excel Skills for Business course offered by Macquarie University on Coursera, enhancing my proficiency in utilizing Excel for business applications.",
   },
 ];
 const expData = [
@@ -66,7 +66,7 @@ const expData = [
     title: "Web Developer",
     company: "Cooperative Bank of Oromia (2022 - Present)",
     desc: "Employed as a web developer at Cooperative Bank of Oromia, I utilize languages such as React JS, Node, Express, Bootstrap, MySQL, etc to create dynamic solutions, contributing to the bank's digital offerings and services.",
-  }
+  },
 ];
 const achvData = [
   {
@@ -78,7 +78,7 @@ const achvData = [
     title: "Assistan Lecturer",
     company: "Ethiopian Minsitry of Education",
     desc: "Due to my strong academic performance, the Ethiopian Ministry of Education granted me the opportunity to become an assistant lecturer at Werabe University.",
-  }
+  },
 ];
 
 const skillsData = [

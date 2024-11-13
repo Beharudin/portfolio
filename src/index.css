@@ -14,7 +14,7 @@
 /* Font and scroll settings */
 html {
   scroll-behavior: smooth;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 body {
@@ -22,7 +22,9 @@ body {
   background-color: #f5f6f8;
 }
 
-#root, .app, .content {
+#root,
+.app,
+.content {
   @apply h-full w-full;
   max-height: 100vh;
   max-width: 100%;
@@ -50,13 +52,13 @@ body {
 
 /* Title styling */
 .titleDiv {
-  @apply flex flex-col justify-center items-center text-white;
+  @apply flex flex-col justify-center items-center;
 }
 
 .titleDiv .title {
-  color: #ff014d;
+  @apply text-rose-600;
 }
 
 .titleDiv .titleDesc {
-  @apply text-5xl font-extrabold mb-6;
+  @apply text-5xl font-extrabold mb-6 text-blue-ribbon-900;
 }
