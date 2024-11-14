@@ -1,18 +1,16 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faEnvelope,
-  faBook,
-  faPhone,
-  faLocationDot,
-} from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookF,
   faInstagram,
   faTwitter,
-  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
-import "./footer.css";
+import {
+  faEnvelope,
+  faLocationDot,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
+import { socialData } from "../data/MockData";
 
 function Footer() {
   return (
@@ -21,12 +19,12 @@ function Footer() {
         <p className="title">CONTACTS</p>
         <h1 className="titleDesc">Lets Connect</h1>
       </div>
-      <footer className="text-white">
-        <div className="card p-4">
-          <div className="row mt-4">
-            <div className="col-12 col-md-6 mb-5 mb-md-0">
-              <h5 className="text-uppercase mb-4">Beharudin Mohammed</h5>
-              <p className="ml-2 desc">
+      <footer className="text-white border-t border-rose-500">
+        <div className="bg-blue-ribbon-900 py-4 px-5 md:px-24">
+          <div className="grid grid-cols-1 md:grid-cols-2 mt-4">
+            <div className="mb-5 px-5 md:mb-0 text-gray-300 hover:text-white hover:cursor-pointer">
+              <h5 className="uppercase mb-4 text-white">Beharudin Mohammed</h5>
+              <p className="ml-2">
                 I'm a highly skilled React.js/Next.js Developer, proficient in
                 Front-End and Full-Stack development. My expertise spans across
                 the MERN stack, enabling me to craft top-notch websites. I
@@ -37,35 +35,24 @@ function Footer() {
               </p>
 
               <div className="mt-4 ml-2">
-                <a
-                  type="button"
-                  className="btn btn-floating btn-warning rounded-circle m-2"
-                  href="https://www.facebook.com/beharudin.mohammed?mibextid=ZbWKwL"
-                >
-                  <FontAwesomeIcon icon={faFacebookF} />
-                </a>
-
-                <a
-                  type="button"
-                  className="btn btn-floating btn-warning rounded-circle m-2"
-                  href="https://instagram.com/baharudinmohammed?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
-                >
-                  <FontAwesomeIcon icon={faInstagram} />
-                </a>
-
-                <a
-                  type="button"
-                  className="btn btn-floating btn-warning rounded-circle m-2"
-                  href="https://twitter.com/BeharudinM?t=QYXofqRv1a1W1A4xqC2kvQ&s=09"
-                >
-                  <FontAwesomeIcon icon={faTwitter} />
-                </a>
+                {socialData.map((data) => (
+                  <a
+                    key={data.href}
+                    className="inline-flex items-center justify-center w-10 h-10 bg-yellow-500 text-white rounded-full m-2 hover:bg-yellow-600 hover:text-rose-600 transition"
+                    href={data.href}
+                    aria-label={data.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon icon={data.icon} />
+                  </a>
+                ))}
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 className="text-uppercase mb-4 pb-1">Contacts</h5>
+            <div className="col-lg-3 col-md-6 mb-4 mb-md-0 text-gray-300 hover:text-white hover:cursor-pointer">
+              <h5 className="uppercase mb-4 pb-1 text-white">Contacts</h5>
 
-              <ul className="fa-ul ml-4 contacts">
+              <ul className="fa-ul ml-4">
                 <li className="mb-3">
                   <span className="fa-li">
                     <FontAwesomeIcon icon={faLocationDot} />
