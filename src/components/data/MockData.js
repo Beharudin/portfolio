@@ -1,13 +1,22 @@
 import {
-  faBootstrap,
   faGithub,
-  faJava,
   faLinkedinIn,
-  faNodeJs,
-  faReact,
   faUpwork,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  SiDrizzle,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiPrisma,
+  SiReact,
+  SiRedux,
+  SiShadcnui,
+  SiSpringboot,
+  SiSupabase,
+  SiTailwindcss,
+  SiTypescript,
+} from "react-icons/si";
 import {
   agrodealerImg,
   agronomistImg,
@@ -255,7 +264,7 @@ const typewriterTitles = [
 
 const socialData = [
   {
-    href: "https://www.upwork.com/freelancers/~01ea990ce4b4995fd3?mp_source=share",
+    href: "https://www.upwork.com/freelancers/~01ea990ce4b4995fd3",
     icon: faUpwork,
   },
   {
@@ -272,18 +281,31 @@ const socialData = [
   },
 ];
 
-const skillData = [faReact, faNodeJs, faJava, faBootstrap];
+const skillData = [
+  SiReact,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiTypescript,
+  SiRedux,
+  SiShadcnui,
+  SiNodedotjs,
+  SiSpringboot,
+  SiSupabase,
+  SiPrisma,
+  SiDrizzle,
+];
 
 export {
+  achvData,
+  certificationData,
   eduData,
   expData,
-  achvData,
-  skillsData,
-  certificationData,
-  testimonials,
-  projects,
   features,
-  socialData,
+  projects,
   skillData,
-  typewriterTitles,
+  skillsData,
+  socialData,
+  testimonials,
+  typewriterTitles
 };
+

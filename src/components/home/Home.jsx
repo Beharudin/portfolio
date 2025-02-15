@@ -1,9 +1,9 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import { userImg } from "../../assets";
 import { skillData, socialData, typewriterTitles } from "../data/MockData";
 import SkillIcon from "./SkillIcon";
 import SocialLink from "./SocialLink";
-import { userImg } from "../../assets";
 
 function Home() {
   return (
@@ -30,10 +30,10 @@ function Home() {
               I'm a highly skilled React.js/Next.js Developer, proficient in
               Front-End and Full-Stack development. My expertise spans across
               the MERN stack, enabling me to craft top-notch websites. I
-              specialize in leveraging React.js, react Native, Next.js, Node.js,
-              Typescript, Redux, Tailwind CSS, MUI Material, and MongoDB,
-              Express.js, PostgreSQL to meet the dynamic needs of modern
-              businesses.
+              specialize in leveraging React.js, React Native, Next.js, Node.js,
+              Typescript, Redux, Tailwind CSS, ShadCn, MUI Material, MySQL,
+              MongoDB, Express.js, PostgreSQL, Supabase, Prisma, and Drizzle to
+              meet the dynamic needs of modern businesses.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row mt-3 sm:mt-5 pt-3 sm:pt-5">
@@ -52,7 +52,7 @@ function Home() {
 
             <div className="w-full sm:w-1/2 mb-4 sm:mb-0">
               <h6 className="text-sm font-semibold">BEST WEB STACK</h6>
-              <div className="flex space-x-3 mt-5">
+              <div className="grid grid-cols-6 gap-y-3 mt-5">
                 {skillData.map((icon) => (
                   <SkillIcon key={icon} icon={icon} />
                 ))}
