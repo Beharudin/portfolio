@@ -6,6 +6,7 @@ import losImg from "./img/los1.png";
 import unknownImg from "./img/unknown.png";
 import userImg from "./img/user.jpg";
 import airlineImg from "./img/airline.jpg";
+import cvFile from "./files/Beharudin Mohammed CV.pdf";
 
 export {
   questionsImg,
@@ -16,4 +17,5 @@ export {
   unknownImg,
   userImg,
   airlineImg,
+  cvFile,
 };
