@@ -112,48 +112,52 @@ const achvData = [
 
 const skillsData = [
   {
-    title: "React JS",
-    value: "80",
-  },
-  {
-    title: "Next JS",
-    value: "70",
-  },
-  {
-    title: "Typescript",
-    value: "90",
-  },
-  {
-    title: "Tailwind CSS",
+    title: "React.js",
     value: "95",
   },
   {
-    title: "Shadcn UI",
+    title: "Next.js",
+    value: "95",
+  },
+  {
+    title: "TypeScript",
+    value: "100",
+  },
+  {
+    title: "Tailwind CSS",
+    value: "100",
+  },
+  {
+    title: "Material UI",
     value: "90",
   },
   {
     title: "Redux",
-    value: "90",
+    value: "95",
   },
   {
-    title: "Node Js, EXPRESS",
-    value: "80",
-  },
-  {
-    title: "HTML, CSS, JS, BOOTSTRAP",
-    value: "90",
-  },
-  {
-    title: "MONGODB & (SQL | MYSQL)",
+    title: "Node.js & Express.js",
     value: "85",
   },
   {
-    title: "GIT & GITHUB",
+    title: "Supabase & Prisma",
+    value: "90",
+  },
+  {
+    title: "PostgreSQL & MongoDB",
     value: "85",
   },
   {
-    title: "Java",
-    value: "80",
+    title: "Stripe Payments",
+    value: "95",
+  },
+  {
+    title: "ClerkAuth & NextAuth",
+    value: "90",
+  },
+  {
+    title: "Performance Optimization",
+    value: "95",
   },
 ];
 
@@ -161,105 +165,105 @@ const testimonials = [
   {
     img: unknownImg,
     comment:
-      "Beharudin did a solid job on our React project using Tailwind. There were a few minor hiccups along the way, but he was quick to address them and stayed communicative throughout the project. Overall I’m happy with the work and would consider working with him again.",
-    name: "Omar Achoor",
+      "We've worked with Behar on several projects—he consistently delivers high-quality frontend work. One of the hardworking and honest developers we've had the pleasure of collaborating with. Always reliable, communicative, and thorough. Highly recommended!",
+    name: "Product Manager, Nexus (USA)",
   },
   {
     img: unknownImg,
     comment:
-      "Beharudin's work on our project was exceptional! He went above and beyond what was expected of him and his attention to detail is outstanding. He is always a pleasure to work with, very knowledgeable and always professional.",
-    name: "Omela Persaud",
+      "Beharudin did a solid job on our React project using Tailwind. Minor hiccups were handled quickly with great communication. Professional, responsive, and focused on delivering results.",
+    name: "Startup Founder (Germany)",
   },
   {
     img: unknownImg,
     comment:
-      "Beharudin is a talented developer. He helped us solve a very complex issue within a short space of time. He is also detail-oriented. We highly recommend him for opportunities. Awesome work! Looking forward to our next project.",
-    name: "Collin John",
+      "Great to work with — sincere, hardworking, and dependable. Looking forward to more projects together.",
+    name: "Founder (Ethiopia)",
   },
   {
     img: unknownImg,
     comment:
-      "As a professor and guide, I've observed Beharudin Mohammed's enthusiastic dedication and diligence. He consistently strives to meet my expectations and actively participates in various projects such as Web Development, Android App Development, and AWS/Firebase Storage under the guidance of esteemed university professors.",
-    name: "N Biraja Isak",
+      "Beharudin delivered our SaaS platform ahead of schedule with clean, scalable code. His expertise in Next.js and Stripe integration was exactly what we needed for our MVP launch.",
+    name: "Tech Lead, SaaS Startup",
   },
   {
     img: unknownImg,
     comment:
-      "Beharudin Mohammed's curiosity and interpretation skills are assets for web development. His problem-solving and communication abilities contribute to effective teamwork, reflecting his persistent interest and curiosity that drive him to excel.",
-    name: "Rajat Kumar Behera",
+      "Outstanding work on our enterprise dashboard. The performance optimizations and real-time features exceeded our expectations. Highly professional and detail-oriented developer.",
+    name: "CTO, Enterprise Client",
   },
 ];
 
 const projects = [
   {
-    img: agrodealerImg,
-    title: "Agrodealer Dashboard",
-    github: "#",
-    link: "#",
-    desc: "The Agrodealer Dashboard, built with Next.js, TypeScript, Tailwind CSS, and Spring Boot, allows agro-dealers to manage, update, and sell products while tracking performance through dynamic graphs and sales metrics. It provides an efficient, data-driven platform for optimizing agricultural operations.",
-  },
-  {
-    img: agronomistImg,
-    title: "Agronomist Dashboard",
-    github: "#",
-    link: "#",
-    desc: "The Agronomist Dashboard, built with Next.js, TypeScript, Tailwind CSS, and Spring Boot, enables agronomists to analyze soil, register various agricultural data, and gain insights for improved crop management and productivity.",
-  },
-  {
     img: airlineImg,
-    title: "Airline Management Dashboard",
+    title: "Airline Booking System",
     github: "#",
     link: "#",
-    desc: "The Airline Management System, developed with React, TypeScript, Tailwind CSS, and Spring Boot, streamlines airline operations by managing flight schedules, passenger data, and bookings, offering real-time insights and efficient control over airline activities.",
-  },
-  {
-    img: questionsImg,
-    title: "UNIVERSITY QUESTIONS",
-    github: "#",
-    link: "#",
-    desc: "For my final year project at the university, I created a comprehensive solution that encompassed both a mobile app and a website, utilizing Django and MySQL for backend development, while leveraging Android Studio, Java, and XML for the app's development.",
+    desc: "Complete airline booking platform with seat selection, flight tracking, and secure Stripe checkout. Built with React, TypeScript, and Tailwind CSS for seamless user experience and real-time flight management.",
   },
   {
     img: losImg,
-    title: "LOAN ORIGINATION SYSTEM",
+    title: "Loan Origination Platform",
     github: "#",
     link: "#",
-    desc: "I collaborated with my team to develop a complex loan origination system, using React js, CSS, Bootstrap, Node.js, Express, and MySQL. This project highlights my effective teamwork and role in creating streamlined systems for critical processes.",
+    desc: "Multi-step loan application and approval workflow system. Features automated credit scoring, document management, and real-time status tracking. Built with Next.js, TypeScript, and enterprise-grade security.",
+  },
+  {
+    img: agrodealerImg,
+    title: "Shemachoch Cooperative Platform",
+    github: "#",
+    link: "#",
+    desc: "Data onboarding and reporting platform for unions across Ethiopia. Handles member management, financial tracking, and automated reporting with role-based access control and multi-language support.",
+  },
+  {
+    img: questionsImg,
+    title: "Flexbill + Stripe Integration",
+    github: "#",
+    link: "#",
+    desc: "Subscription billing and invoicing automation platform. Features recurring payments, usage-based billing, and comprehensive financial reporting. Built with Next.js, Stripe API, and PostgreSQL.",
+  },
+  {
+    img: agronomistImg,
+    title: "Makerkit SaaS Customization",
+    github: "#",
+    link: "#",
+    desc: "Rapid MVP launch platform with authentication, billing, and dashboard. Custom multi-tenant architecture with role-based permissions, Stripe integration, and scalable infrastructure for startup launches.",
   },
   {
     img: bakkalchaImg,
-    title: "BAKKALCHA FEDIS",
+    title: "Enterprise Analytics Dashboard",
     github: "https://github.com/Beharudin/MyProjects/tree/bakkalcha-client",
     link: "https://bakkalcha-fadis-d50p.onrender.com/",
-    desc: "I designed and developed a responsive web application named Bakkalcha Fedis for my client, employing React, Node.js, Express, MySQL, CSS, HTML, and Bootstrap. This project showcases my ability to create dynamic and user-friendly solutions that meet client needs.",
+    desc: "Real-time analytics and reporting dashboard with data visualization, KPI tracking, and automated insights. Features responsive design, export capabilities, and performance optimization for large datasets.",
   },
 ];
 
 const features = [
   {
-    icon: "M64 96c0-35.3 28.7-64 64-64H512c35.3 0 64 28.7 64 64V352H512V96H128V352H64V96zM0 403.2C0 392.6 8.6 384 19.2 384H620.8c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z",
-    title: "Web Development",
-    desc: "Have completed a MERN stack development, Next js, Redux, Typescript, TailwindCSS, and other courses. Have developed various projects and pushed them to my Github repo.",
+    icon: "M320 0c17.7 0 32 14.3 32 32V96H472c39.8 0 72 32.2 72 72V440c0 39.8-32.2 72-72 72H168c-39.8 0-72-32.2-72-72V168c0-39.8 32.2-72 72-72H288V32c0-17.7 14.3-32 32-32zM208 384c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H208zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H304zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H400z",
+    title: "SaaS Platform Development",
+    desc: "Custom multi-tenant SaaS architecture with subscription billing, role-based access control, and scalable infrastructure. Built for startups and enterprises ready to scale.",
   },
   {
-    icon: "M420.55,301.93a24,24,0,1,1,24-24,24,24,0,0,1-24,24m-265.1,0a24,24,0,1,1,24-24,24,24,0,0,1-24,24m273.7-144.48,47.94-83a10,10,0,1,0-17.27-10h0l-48.54,84.07a301.25,301.25,0,0,0-246.56,0L116.18,64.45a10,10,0,1,0-17.27,10h0l47.94,83C64.53,202.22,8.24,285.55,0,384H576c-8.24-98.45-64.54-181.78-146.85-226.55",
-    title: "App Development",
-    desc: "Have completed various app development courses like React Native and Android Studio. Have developed various projects for my company",
+    icon: "M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm0 64H512V416H64V96zM176 160c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H176zm112 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H288zm112 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H400z",
+    title: "Enterprise Dashboards",
+    desc: "Real-time analytics dashboards with data visualization, reporting, and admin panels. Optimized for performance with clean, intuitive interfaces that drive business decisions.",
   },
   {
-    icon: "M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64H240l-10.7 32H160c-17.7 0-32 14.3-32 32s14.3 32 32 32H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H346.7L336 416H512c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zM512 64V288H64V64H512z",
-    title: "API Development",
-    desc: "Have completed various APIs using Node js, Express js, and Spring Boot",
+    icon: "M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0zm0 66.8V444.8C394 378 431.1 230.1 432 141.4L256 66.8l0 0z",
+    title: "Secure Payment Integration",
+    desc: "Stripe payment systems, subscription billing, and secure checkout flows. Complete payment automation with invoicing, recurring subscriptions, and financial reporting.",
   },
 ];
 
 const typewriterTitles = [
-  "A Professional Developer",
-  "A Full Stack Developer",
   "A MERN Developer",
-  "A ReactJS Developer",
-  "A React Native Lover",
-  "A NextJs Typescript TailwindCSS Lover",
+  "A React Specialist",
+  "A Next.js Expert", 
+  "A Full-Stack Developer",
+  "A TypeScript Developer",
+  "A SaaS Builder",
 ];
 
 const socialData = [
