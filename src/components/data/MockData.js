@@ -19,11 +19,10 @@ import {
 } from "react-icons/si";
 import {
   agrodealerImg,
-  agronomistImg,
   airlineImg,
   bakkalchaImg,
-  losImg,
-  questionsImg,
+  landingImg,
+  flexbillImg,
   unknownImg,
 } from "../../assets";
 
@@ -203,11 +202,11 @@ const projects = [
     desc: "Complete airline booking platform with seat selection, flight tracking, and secure Stripe checkout. Built with React, TypeScript, and Tailwind CSS for seamless user experience and real-time flight management.",
   },
   {
-    img: losImg,
-    title: "Loan Origination Platform",
+    img: landingImg,
+    title: "Landing Page",
     github: "#",
     link: "#",
-    desc: "Multi-step loan application and approval workflow system. Features automated credit scoring, document management, and real-time status tracking. Built with Next.js, TypeScript, and enterprise-grade security.",
+    desc: "Creative and high-performance landing page featuring advanced SEO optimization, fluid animations with Framer Motion, and modern responsive design. Built for maximum user engagement.",
   },
   {
     img: agrodealerImg,
@@ -217,22 +216,15 @@ const projects = [
     desc: "Data onboarding and reporting platform for unions across Ethiopia. Handles member management, financial tracking, and automated reporting with role-based access control and multi-language support.",
   },
   {
-    img: questionsImg,
+    img: flexbillImg,
     title: "Flexbill + Stripe Integration",
     github: "#",
     link: "#",
     desc: "Subscription billing and invoicing automation platform. Features recurring payments, usage-based billing, and comprehensive financial reporting. Built with Next.js, Stripe API, and PostgreSQL.",
   },
   {
-    img: agronomistImg,
-    title: "Makerkit SaaS Customization",
-    github: "#",
-    link: "#",
-    desc: "Rapid MVP launch platform with authentication, billing, and dashboard. Custom multi-tenant architecture with role-based permissions, Stripe integration, and scalable infrastructure for startup launches.",
-  },
-  {
     img: bakkalchaImg,
-    title: "Enterprise Analytics Dashboard",
+    title: "Bakkalcha Poem App",
     github: "https://github.com/Beharudin/MyProjects/tree/bakkalcha-client",
     link: "https://bakkalcha-fadis-d50p.onrender.com/",
     desc: "Real-time analytics and reporting dashboard with data visualization, KPI tracking, and automated insights. Features responsive design, export capabilities, and performance optimization for large datasets.",
@@ -260,7 +252,7 @@ const features = [
 const typewriterTitles = [
   "A MERN Developer",
   "A React Specialist",
-  "A Next.js Expert", 
+  "A Next.js Expert",
   "A Full-Stack Developer",
   "A TypeScript Developer",
   "A SaaS Builder",
@@ -310,6 +302,5 @@ export {
   skillsData,
   socialData,
   testimonials,
-  typewriterTitles
+  typewriterTitles,
 };
-
